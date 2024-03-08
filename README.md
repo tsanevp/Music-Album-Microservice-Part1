@@ -50,7 +50,7 @@ Through testing, I found a difference between server load tests when comparing t
 ## Plot of Load Results
 
 Since I ran three trials for each group size, I took each server's average throughput and wall time. See below.
-![Plot Load Results Image](https://github.com/tsanevp/CS66500-Assignment1/blob/main/Client/src/main/java/Part1/ImageResults/Plot_Load_Results_Part1.png)
+![Plot Load Results Part 1 Image](https://github.com/tsanevp/CS66500-Assignment1/blob/main/Client/src/main/java/Part1/ImageResults/Plot_Load_Results_Part1.png)
 
 ## Client Part 2 Results
 
@@ -77,7 +77,7 @@ Like Client Part 1, the Java server produced faster throughputs and wall times f
 ## Plot of Load Results
 
 Since I ran three trials for each group size, I took each server's average throughput and wall time. See below.
-![Plot Load Results Image](https://github.com/tsanevp/CS66500-Assignment1/blob/main/Client/src/main/java/Part1/ImageResults/Plot_Load_Results_Part1.png)
+![Plot Load Results Part 2 Image](https://github.com/tsanevp/CS66500-Assignment1/blob/main/Client/src/main/java/Part2/ImageResults/Plot_Load_Results_Part2.png)
 
 ## Plots
 
@@ -87,4 +87,8 @@ This plot shows the throughput vs. time for each server for the different-sized 
 
 The plot below shows that results from Part 1 and Part 2 are very close for each server. However, this plot makes it clear that for my server load results, the Java server runs faster than the Go server.
 
+
+![Plot Load Results Comparison Image](https://github.com/tsanevp/CS66500-Assignment1/blob/main/Client/src/main/java/Part2/ImageResults/Plot_Load_Results_Comparison.png)
+
 ### Plot ThroughPut Over Time
+![Plot Throughput Over Time Image](https://github.com/tsanevp/CS66500-Assignment1/blob/main/Client/src/main/java/Part2/ImageResults/Plot_Throughput_Over_Time.png)
