@@ -1,6 +1,6 @@
 # Client Design
 
-The architecture I implemented for this assignment's client component strongly emphasizes Java's synchronization tools to prevent potential race conditions and deadlock situations. I leveraged classes like Java's `CountDownLatch`, `ExecutorService`, and `AtomicInteger` to effectively manage thread interactions, minimizing contention and maximizing request throughput.
+The architecture I implemented for this project's client component strongly emphasizes Java's synchronization tools to prevent potential race conditions and deadlock situations. I leveraged classes like Java's `CountDownLatch`, `ExecutorService`, and `AtomicInteger` to effectively manage thread interactions, minimizing contention and maximizing request throughput.
 
 ## Major Classes
 
