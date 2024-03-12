@@ -1,12 +1,20 @@
 # Music Album Microservice - Part 1
 
 ## Overview
-This repository is part of a series of projects to develop a scalable distributed system running on AWS. In this particular project, I focus on building a simple music service that stores data about albums. The primary tasks include implementing a basic API and developing a client for performance testing.
+This repository is part of a series of projects to develop a scalable distributed system running on AWS. In this project, I focus on implementing a simple music service API with a **Java servlet** and a **Go server**, testing server performance with a multi-threaded client, load testing each server with various configurations, analyzing server response times, and plotting performance graphs.
 
 - [Music Album Microservice - Part 2](https://github.com/tsanevp/Music-Album-Microservice-Part2) -> Focuses on implementing a database for album info, load balancing, and system optimization.
 - [Music Album Microservice - Part 3](https://github.com/tsanevp/Music-Album-Microservice-Part3) -> Enhances system with asynchronous album reviews, RabbitMQ, and performance optimization.
 - [Music Album Microservice - Part 4](https://github.com/tsanevp/Music-Album-Microservice-Part4) -> Focuses on querying album likes/dislikes and optimizing response time.
+
 ## Project Structure
+
+<p align="center">
+  <img src="https://github.com/tsanevp/Music-Album-Microservice-Part1/blob/main/Client/src/main/java/AlbumMicroservice_SystemArchitechture_Part1.png" alt="System Architechture Part 1">
+</p>
+<p align="center">
+  <b>Image 1:</b> Album Microservice System Architechture.
+</p>
 
 ### Client Design
 
